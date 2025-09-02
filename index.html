@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Navigating AI in HR @ UMN</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta name="description" content="HR-specific guidance for using AI at the University of Minnesota, including risk-coded use cases, templates, and governance."/>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="brand">
+      <div class="logo">HR</div>
+      <div>
+        <h1 style="margin:0">Navigating AI in HR @ UMN</h1>
+        <div class="small">For all HR job families systemwide &nbsp;·&nbsp; Pilot demo site &nbsp;·&nbsp; This site was created by humans, revised and coded by AI, and reviewed and approved by humans.</div>
+      </div>
+    </div>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#start">Start here</a></li>
+        <li><a href="#must">Must / May / Must-Not</a></li>
+        <li><a href="#use-cases">Use cases</a></li>
+        <li><a href="#templates">Templates</a></li>
+        <li><a href="#tools">Approved tools</a></li>
+        <li><a href="#governance">Governance</a></li>
+        <li><a href="#training">Training</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="section hero">
+    <div class="card">
+      <h2 class="anchor" id="purpose">Purpose</h2>
+      <p>This site was created to help HR professionals use AI tools safely and effectively, consistent with University policy, data classifications, and our values of equity and transparency. HR professionals throughout the University of Minnesota uses AI to improve service for and with our fellow employees, reduce risk, and learn together.</p>
+      <div class="callout small">
+        This HR site mirrors the structure of <strong>Navigating AI @ UMN</strong> and adds HR‑specific guardrails, templates, and role‑based examples.
+      </div>
+      <h3>Scope</h3>
+      <p>Applies to HR work across <em>Talent Acquisition, Classification & Compensation, Benefits, Employee & Labor Relations, HR Operations, HR Reporting & Analytics, Payroll & Time and Absence Management, Performance Management, and Learning & Development</em>.</p>
+      <p class="small">Owners: Office of Human Resources (OHR) with partners in OIT and EOT.</p>
+    </div>
+    <div class="card">
+      <h2 class="anchor" id="start">Start here</h2>
+      <ul class="checks">
+        <li><strong>Data first.</strong> Only <em>Public</em> data may be entered into AI by default. Never paste Private‑Restricted or Private‑Highly Restricted data into unapproved tools.</li>
+        <li><strong>Prefer UMN‑licensed tools</strong> with enterprise protections (see “Approved tools”).</li>
+        <li><strong>Keep a human in the loop.</strong> AI never makes the final employment decision.</li>
+        <li><strong>Don’t integrate unapproved tools</strong> with University systems; coordinate with OIT for any pilots.</li>
+      </ul>
+      <p class="small">Questions about data? See the <a target="_blank" rel="noopener" href="https://it.umn.edu/services-technologies/good-practices/know-your-data-how-protect-university">Data Security Classification</a> resource.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="anchor" id="must">What you <em>Must / May / Must‑Not</em> do</h2>
+    <div class="grid grid-3">
+      <div class="card">
+        <h3>MUST</h3>
+        <ul>
+          <li>Classify data before sharing with AI; strip identifiers where feasible.</li>
+          <li>Disclose and document meaningful AI assistance in hiring or other decision files.</li>
+          <li>Keep human oversight for hiring, promotion, discipline, pay, and leave decisions.</li>
+          <li>Use UMN‑licensed tools with Enterprise Data Protection where available.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>MAY</h3>
+        <ul>
+          <li>Draft job ads/JDs, summarize policies, brainstorm training ideas <strong><em>with human review</em></strong>.</li>
+          <li>Summarize public dashboards or anonymized samples <em>(never upload restricted data to unapproved tools)</em>.</li>
+          <li>Generate plain‑language guides; link to official sources and verify accuracy.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>MUST‑NOT</h3>
+        <ul>
+          <li>Use AI to screen or rank applicants/resumes or automate employment decisions.</li>
+          <li>Paste Private‑Restricted/Highly Restricted data into unapproved tools.</li>
+          <li>Use AI outputs without human fact‑checking and attribution where appropriate.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="anchor" id="use-cases">HR use cases by domain</h2>
+	  <p class="small">Risk levels <strong>(<span style="color:green">Low</span>/<span style="color:#C2622B">Medium</span>/<span style="color:red">High</span></strong>) guide caution and required approvals. Human review is always required.</p>
+
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>Talent Acquisition (TA)</h3>
+        <ul>
+          <li><span class="badge med" title="Medium risk: caution; human review required">● Medium</span> &nbsp; Draft job ads and job description language; remove biased terms; produce variants for different audiences. HR reviews before posting. <a href='#templates'>Use TA‑001</a>.</li>
+          <li><span class="badge low" title="Low risk: public or de-identified content only">● Low</span> &nbsp; Create interview practice questions and rubrics (no candidate PII).</li>
+          <li><span class="badge high" title="High risk: not permitted without special approval">● High</span> &nbsp; <span style="color:red"><strong>Do not</strong></span> use AI to screen or rank applicants/resumes.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Classification & Compensation</h3>
+        <ul>
+          <li><span class="badge med" title="Medium risk: caution; human review required">● Medium</span> &nbsp; Normalize JD text and summarize role families; comp analyst validates.</li>
+          <li><span class="badge high" title="High risk: not permitted without special approval">● High</span> &nbsp; <span style="color:red"><strong>No</strong></span> AI‑generated pay recommendations.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Employee & Labor Relations (ELR)</h3>
+        <ul>
+          <li><span class="badge med" title="Medium risk: caution; human review required">● Medium</span> &nbsp; Draft coaching memos or letters; ELR finalizes; avoid nonpublic details in unapproved tools.</li>
+          <li><span class="badge high" title="High risk: not permitted without special approval">● High</span> &nbsp; Investigation summaries with confidential facts.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Benefits & Leaves</h3>
+        <ul>
+          <li><span class="badge low" title="Low risk: public or de-identified content only">● Low</span> &nbsp; Draft plain‑language summaries of public benefits info; link to official sources.</li>
+          <li><span class="badge high" title="High risk: not permitted without special approval">● High</span> &nbsp; Eligibility determinations.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>HR Operations / Records</h3>
+        <ul>
+          <li><span class="badge low" title="Low risk: public or de-identified content only">● Low</span> &nbsp; Draft knowledge‑base articles and how‑tos; records staff review prior to publishing.</li>
+          <li><span class="badge high" title="High risk: not permitted without special approval">● High</span> &nbsp; Transcribe/summarize confidential meetings in unapproved tools.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Learning & Development (L&amp;D)</h3>
+        <ul>
+          <li><span class="badge low" title="Low risk: public or de-identified content only">● Low</span> &nbsp; Create outlines, job aids, and microlearning copy; L&amp;D reviews and cites sources.</li>
+          <li><span class="badge med" title="Medium risk: caution; human review required">● Medium</span> &nbsp; Automated coaching text without manager verification.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>HR Analytics & Workforce Data</h3>
+        <ul>
+          <li><span class="badge med" title="Medium risk: caution; human review required">● Medium</span> &nbsp; Summarize <em>public</em> dashboards or de‑identified samples; verify against source.</li>
+          <li><span class="badge high" title="High risk: not permitted without special approval">● High</span> &nbsp; Modeling/predictions on identifiable HR data outside secured, approved environments.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Payroll & Time</h3>
+        <ul>
+          <li><span class="badge low" title="Low risk: public or de-identified content only">● Low</span> &nbsp; Draft plain‑language guidance (time entry, FLSA explanations); HR validates.</li>
+          <li><span class="badge high" title="High risk: not permitted without special approval">● High</span> &nbsp; Pay calculations or eligibility decisions generated by AI.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="anchor" id="templates">Templates & checklists</h2>
+    <table class="table">
+      <thead>
+        <tr><th>Template</th><th>Purpose</th><th>Download</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>TA‑001 · JD &amp; Job Ad Prompt Guide</strong></td>
+          <td>Prompts + reviewer checklist to create inclusive, accurate job ads/JDs.</td>
+          <td><a class="btn" href="templates/TA-001.html" download>Open</a></td>
+        </tr>
+        <tr>
+          <td><strong>PM‑002 · Performance Review Helper</strong></td>
+          <td>Prompts to draft clearer, coaching‑oriented feedback; manager remains responsible.</td>
+          <td><a class="btn" href="templates/PM-002.html" download>Open</a></td>
+        </tr>
+        <tr>
+          <td><strong>HIL‑003 · Human‑in‑the‑Loop Sign‑off</strong></td>
+          <td>Simple form to record human review before any AI output influences a decision.</td>
+          <td><a class="btn" href="templates/HIL-003.html" download>Open</a></td>
+        </tr>
+        <tr>
+          <td><strong>PROC‑AIA‑005 · Vendor AI Addendum</strong></td>
+          <td>Procurement clauses: data use/retention, bias testing, audit rights, explainability, incidents.</td>
+          <td><a class="btn" href="templates/PROC-AIA-005.html" download>Open</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="section">
+    <h2 class="anchor" id="tools">Approved tools (UMN‑licensed)</h2>
+    <p>Use these tools for University work as they provide enterprise‑grade protections. Always follow the tool‑specific guidance linked below.</p>
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>Compare AI Tools (UMN)</h3>
+        <p>University‑licensed tools at a glance.</p>
+        <a class="btn" target="_blank" rel="noopener" href="https://it.umn.com/services-technologies/comparisons/compare-ai-tools">View comparison</a>
+      </div>
+      <div class="card">
+        <h3>Direct links</h3>
+        <ul>
+          <li><a target="_blank" rel="noopener" href="https://it.umn.edu/services-technologies/gemini-enterprise-grade-data-protection">Gemini (Enterprise‑Grade Data Protection)</a></li>
+          <li><a target="_blank" rel="noopener" href="https://it.umn.edu/services-technologies/copilot-enterprise-data-protection">Copilot (Enterprise Data Protection)</a></li>
+          <li><a target="_blank" rel="noopener" href="https://it.umn.edu/services-technologies/comparisons/compare-ai-tools">NotebookLM, Zoom AI Companion, and more</a></li>
+        </ul>
+        <p class="small">Other public AI tools (e.g., Claude, Perplexity) are <em>not approved</em> for University data.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="anchor" id="governance">Governance, accountability &amp; review</h2>
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>Required for Medium/High uses</h3>
+        <ul>
+          <li>Document a <strong>Human‑in‑the‑Loop</strong> review (use <a href="templates/HIL-003.html">HIL‑003</a>).</li>
+          <li>For High‑risk scenarios involving nonpublic data, obtain pre‑approval with OIT Security &amp; OHR.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Incident &amp; redress</h3>
+        <ul>
+          <li>Suspect bias, privacy risk, or misuse? <a target="_blank" rel="noopener" href="https://it.umn.edu/about-us/report-information-security-issues">Report Information Security Issues</a>.</li>
+          <li>Discrimination/harassment concerns? Report to EO/Title IX.</li>
+        </ul>
+      </div>
+    </div>
+    <h3>Quarterly review &amp; success metrics</h3>
+    <ul>
+      <li>% TA postings using TA‑001; # HIL‑003 sign‑offs; # vendor AI addenda executed.</li>
+      <li># incidents and corrective actions; % HR staff trained on data classification &amp; AI basics.</li>
+      <li># knowledge‑base articles improved via AI with reviewer attribution.</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2 class="anchor" id="training">Training & communities</h2>
+    <div class="grid grid-3">
+      <div class="card">
+        <h3>Navigating AI @ UMN</h3>
+        <p>Explore initiatives, events, and systemwide AI resources.</p>
+        <a class="btn" target="_blank" rel="noopener" href="https://it.umn.edu/navigating-ai-umn">Open hub</a>
+      </div>
+      <div class="card">
+        <h3>Data classification &amp; security</h3>
+        <p>Know your data and how to protect University data.</p>
+        <a class="btn" target="_blank" rel="noopener" href="https://it.umn.edu/services-technologies/good-practices/know-your-data-how-protect-university">Learn more</a>
+      </div>
+      <div class="card">
+        <h3>AI Community of Practice</h3>
+        <p>Join the systemwide UMN AI‑COP to share HR use cases that meet policy.</p>
+        <a class="btn" target="_blank" rel="noopener" href="https://it.umn.edu/navigating-ai-umn">Join</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-links">
+      <p><strong>Related policies and resources:</strong> <a target="_blank" rel="noopener" href="https://it.umn.edu/navigating-ai-umn">Navigating AI @ UMN</a> · <a target="_blank" rel="noopener" href="https://it.umn.edu/services-technologies/resources/artificial-intelligence-appropriate-use">Appropriate Use of Generative AI</a> · <a target="_blank" rel="noopener" href="https://it.umn.edu/services-technologies/good-practices/know-your-data-how-protect-university">Data Security Classification</a> · <a target="_blank" rel="noopener" href="https://it.umn.edu/about-us/report-information-security-issues">Report Information Security Issues</a> · <a target="_blank" rel="noopener" href="https://it.umn.edu/services-technologies/comparisons/compare-ai-tools">Compare AI Tools</a></p>
+      <p class="version">Maintained by OHR with OIT, EO/Title IX, Procurement, UR, RIO · Last updated: <span id="last-updated"></span></p>
+    </div>
+  </div>
+  <script>document.getElementById('last-updated').textContent = new Date().toLocaleDateString();</script>
+</footer>
+</body>
+</html>
